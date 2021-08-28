@@ -11,85 +11,144 @@
 <!-- Estas lineas llaman las hojas de estilo css -->
 <link rel="stylesheet" href="css/estilo.css">
 <link rel="stylesheet" href="css/menu.css">
+<link rel="stylesheet" href="css/blog.css">
+<link rel="stylesheet" href="css/banner.css">
+<link rel="stylesheet" href="css/web.css">
+<link rel="stylesheet" href="css/info.css">
 <link rel="stylesheet" href="css/fontello.css">
 <link rel="stylesheet" href="css/fontello2.css">
 </head>
 <!-- Fin Metadata -->
 
 <!-- Empieza la que se ve en la web -->
-
   <body>
-
     <!--Encabezado que contiene el menu-->
 <header>
 <div class="contenedor">
-
     <h1 class="icon-bitcoin">Cypherplatxs </h1>
     <input type="checkbox" id="menu-bar">
     <!--El label es para que el input se active o se desactive -->
     <label class="icon-menu"  for="menu-bar"> </label>
-
     <nav class="menu">
-
       <a href="">Inicio </a>
       <a href="">nel </a>
       <a href="">Repos </a>
       <a href="">Contact </a>
     </nav>
-
-
-
  </div>
-
-
  </header>
 
-    <div>
+ <!--Fin encabezado -->
 
-<!-- Ejemplo de encabezados y parrafo -->
-      <div>
-        <h1>Encabezado 1 </h1>
-        <h2>Encabezado 2 </h2>
-        <h3>Encabezado 3 </h3>
-        <h4>Encabezado 4 </h4>
-        <p>Lorem ipsum dolor sit amet, <b>consectetur adipisicing elit,</b> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-      </div>
-
-  <!-- Ejemplo de llamar imagen -->
-      <div>
-<img src="img/help.jpg" width="300">
-      </div>
-
-
-      <!-- Ejemplo de llamar video de youtube -->
-
-      <div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fE1N_gDvICU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-
-      <!-- Ejemplo de llamar web externa -->
-
-      <div>
-        <iframe src="https://platohedro.org/" width="500" height="500" name="ventana">Ejemplo de insertar una web externa</iframe>
-
-
-
-
-<div>
-  <p>Lorem ipsum dolor sit amet, <b>consectetur adipisicing elit,</b> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-
+ <main>
+<!-- INICIO SECCIÓN BANNER -->
+   <section id="banner">
+       <!-- Ejemplo de llamar imagen -->
+     <img src="img/help.jpg" alt="imagen del banner">
+     <div class="contenedor">
+     <h2> FUCK YOU </h2>
+     <p>No mames gueeeeeey</p>
+     <a href=""> ver más</a>
 </div>
-      </div>
+   </section>
+ <!-- FIN SECCIÓN BANNER -->
 
 
+<!-- INICIO SECCIÓN BIENVENIDOS -->
+ <section id="bienvenidos">
+<h2>Cypherplatxs</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p>  </section>
+  <!-- FIN SECCIÓN BIENVENIDOS -->
 
 
-    </div>
-<!-- FIN DIV Principal -->
+<!-- INICIO SECCIÓN BLOG -->
+  <section id="blog">
+<h3>News</h3>
+<div class="contenedor">
+  <!-- Componente 1 -->
+<article>
+<img src="img/help.jpg" >
+<h4>News 1</h4></article>
+  <!-- Componente 2 -->
+<article><img src="img/help.jpg" >
+<h4>News 2</h4> </article>
+  <!-- Componente 3 -->
+<article> <img src="img/help.jpg" >
+<h4>News 3</h4></article>
+</div>  </section>
 
+<!-- FIN SECCIÓN BLOG -->
 
+<!-- INICIO SECCIÓN INFO -->
+<section id="info">
+<h3> Info sonbre cypherplatxs</h3>
+<div class="contenedor">
+    <!-- Componente 1 -->
+    <div class="info">
+<img src="img/cypher.jpg">
+<h4>a la verga gueeeeeey</h4>
+  </div>
+    <!-- Componente 2 -->
+    <div class="info">
+<img src="img/cypher.jpg">
+<h4>a la verga gueeeeeey</h4>
+  </div>
+  <!-- Componente 3 -->
+    <div class="info">
+<img src="img/cypher.jpg">
+<h4>a la verga gueeeeeey</h4>
+  </div>
+
+    <!-- Componente 4 -->
+    <div class="info">
+<img src="img/cypher.jpg">
+<h4>a la verga gueeeeeey</h4>
+  </div>
+</div>
+</section>
+<!-- FIN SECCIÓN BLOG -->
+
+<!-- Ejemplo de llamar web externa -->
+<section id="web">
+<h2> incrustar una web externa </h2>
+<div class="contenedor">
+<center>
+ <!-- Componente -->
+<div class="web">
+<iframe src="https://platohedro.org/" width="400" height="500" name="ventana">Ejemplo de insertar una web externa</iframe>
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
+</div>
+ </center>
+</div>
+ </section>
+
+ <!-- Inicio sección video -->
+
+ <section id="video">
+ <center>
+ <div class="contenedor">
+<!-- Ejemplo de llamar video de youtube -->
+<iframe width="400" height="400" src="https://www.youtube.com/embed/fE1N_gDvICU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</center>
+</section>
+
+ <!-- Fin sección video -->
+
+ </main>
+
+<!-- Inicio de Footer -->
+ <footer>
+
+<div class="contenedor">
+<p class="copy"> My doggy &copy; 2015</p>
+<div class="social">
+<a  class="icon-bitcoin" href=""> </a>
+<a  class="icon-bitcoin" href=""> </a>
+<a  class="icon-bitcoin" href=""> </a>
+</div>
+ </footer>
+
+   <!-- Fin del footer -->
   </body>
-
-
-
  </<html>
