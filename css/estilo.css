@@ -1,0 +1,49 @@
+
+
+/* Para importar la fuente*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Zen+Tokyo+Zoo&display=swap');
+
+
+/* Para que los pading queden dentro de las misma caja*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Para que los pading queden dentro de las misma caja*/
+body{
+  font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+
+header{
+  width: 100%;
+  height:50px;
+  background: #333;
+  color: #fff;
+  /* Para que se quede pegado*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.contenedor{
+
+  width: 98%;
+  margin: auto;
+
+}
+
+h1{
+  float:left;
+}
+
+
+header .contenedor{
+  display: table;
+}

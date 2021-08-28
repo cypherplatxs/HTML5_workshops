@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2021 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="menu" unicode="&#xf0c9;" d="M857 100v-71q0-15-10-25t-26-11h-785q-15 0-25 11t-11 25v71q0 15 11 25t25 11h785q15 0 26-11t10-25z m0 286v-72q0-14-10-25t-26-10h-785q-15 0-25 10t-11 25v72q0 14 11 25t25 10h785q15 0 26-10t10-25z m0 285v-71q0-14-10-25t-26-11h-785q-15 0-25 11t-11 25v71q0 15 11 26t25 10h785q15 0 26-10t10-26z" horiz-adv-x="857.1" />
+
+<glyph glyph-name="bitcoin" unicode="&#xf15a;" d="M651 493q10-102-73-144 65-16 98-58t25-119q-4-40-18-70t-36-49-54-33-68-19-81-9v-142h-86v140q-45 0-68 1v-141h-86v142q-10 0-30 1t-31 0h-112l18 102h62q27 0 32 28v225h9q-4 0-9 0v161q-7 37-50 37h-62v92l119-1q35 0 54 1v141h86v-138q45 1 68 1v137h86v-141q44-4 78-13t63-25 46-43 20-64z m-120-304q0 20-8 35t-21 26-32 17-36 11-42 5-38 1-36 0-27-1v-189q5 0 21 0t27 0 29 1 33 2 32 5 31 8 26 11 22 17 14 22 5 29z m-39 265q0 19-7 33t-17 23-27 16-31 9-34 5-32 1-31 0-22-1v-171q3 0 20 0t26 0 27 1 31 3 29 6 27 10 21 15 15 22 5 28z" horiz-adv-x="714.3" />
+</font>
+</defs>
+</svg>
