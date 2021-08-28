@@ -2,10 +2,7 @@
 
 /* Para importar la fuente*/
 
-
-@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Zen+Tokyo+Zoo&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@1,300&family=Turret+Road:wght@300&display=swap');
 /* Para que los pading queden dentro de las misma caja*/
 *{
   margin: 0;
@@ -14,9 +11,9 @@
 }
 
 
-/* Para que los pading queden dentro de las misma caja*/
+/* Para llamar  la fuente al body */
 body{
-  font-family: 'Zen Tokyo Zoo', cursive;
+font-family: 'Turret Road', cursive;
 }
 
 /* Información de lña cabecera*/
